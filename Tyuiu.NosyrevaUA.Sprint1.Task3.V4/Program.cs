@@ -45,7 +45,8 @@ namespace Tyuiu.NosyrevaUA.Sprint1.Task3.V4
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Стоимость покупки:" + ds.PurchaseAmount(pN,pC,am));
+            double resu = ds.PurchaseAmount(pN, pC, am);
+            Console.WriteLine("Стоимость покупки:" + Math.Round(resu, 3));
 
             Console.ReadLine();
         }

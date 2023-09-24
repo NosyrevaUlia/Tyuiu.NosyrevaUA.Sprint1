@@ -40,7 +40,8 @@ namespace Tyuiu.NosyrevaUA.Sprint1.Task1.V12
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            double resu = ds.Calculate(x, y);
+            Console.WriteLine(Math.Round(resu, 3));
 
             Console.ReadKey();
 

@@ -13,6 +13,7 @@ namespace Tyuiu.NosyrevaUA.Sprint1.Task1.V12.Lib
         public double Calculate(double x, double y)
         {
             return ((x + y) / 6);
+           
         }
     }
 }

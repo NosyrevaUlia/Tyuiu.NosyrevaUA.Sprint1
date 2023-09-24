@@ -4,26 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TEST
+namespace t
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 3;
-
-            int b = --a + 2;
-
-            int c = b;
-
-            a += b + c;
-
-            c = b++ + a;
-
-            b -= a;
-
-            int x = a + b + c;
-            Console.WriteLine(x);
+            double x = Convert.ToDouble(Console.ReadLine());
+            double y = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Math.Round((x / y), 3));
             Console.ReadKey();
         }
     }
