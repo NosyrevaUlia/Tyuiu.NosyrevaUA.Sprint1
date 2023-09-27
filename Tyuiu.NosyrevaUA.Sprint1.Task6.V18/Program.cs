@@ -36,7 +36,7 @@ namespace Tyuiu.NosyrevaUA.Sprint1.Task6.V18
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            if(ds.CheckNumber(v) == true)
+            if((ds.CheckNumber(v) == true) && (v[0]!='0'))
             {
                 Console.WriteLine("Строка является натуральным числом.");
             }
