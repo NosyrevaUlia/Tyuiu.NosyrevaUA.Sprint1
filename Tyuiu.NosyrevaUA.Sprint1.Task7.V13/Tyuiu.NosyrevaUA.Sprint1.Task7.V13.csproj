@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C38529AE-B96B-4946-B2FA-8C465A5496AB}</ProjectGuid>
+    <ProjectGuid>{4AAF5AEC-95C7-4A3C-83CC-D710F6622275}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>test</RootNamespace>
-    <AssemblyName>test</AssemblyName>
+    <RootNamespace>Tyuiu.NosyrevaUA.Sprint1.Task7.V13</RootNamespace>
+    <AssemblyName>Tyuiu.NosyrevaUA.Sprint1.Task7.V13</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.NosyrevaUA.Sprint1.Task7.V13.Lib\Tyuiu.NosyrevaUA.Sprint1.Task7.V13.Lib.csproj">
+      <Project>{6bd8a83b-7f06-4f0f-b6af-763dcc3f6cb4}</Project>
+      <Name>Tyuiu.NosyrevaUA.Sprint1.Task7.V13.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
